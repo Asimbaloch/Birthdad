@@ -1,0 +1,23 @@
+{
+  "greeting": "Hello",
+  "name": "Momin",
+  "greetingText": "Your name is truly wonderful!",
+  "wishText": "May the force of creativity always be with you! ;)",
+  "imagePath": "img/momin.png",
+  "text1": "It's your special day!!! 🎉",
+  "textInChatBox": "Happy Birthday, Momin! 🎂🎈 Wishing you a day filled with joy and laughter!",
+  "sendButtonLabel": "Send",
+  "text2": "I was planning to do something.",
+  "text3": "But then I paused.",
+  "text4": "I realized, I wanted to do something",
+  "text4Adjective": "extraordinary",
+  "text5Entry": "Because,",
+  "text5Content": "You are Extraordinary",
+  "smiley": "😊",
+  "bigTextPart1": "H",
+  "bigTextPart2": "B",
+  "wishHeading": "Happy Birthday, Momin!",
+  "outroText": "Now, come back and let me know if you enjoyed it.",
+  "replayText": "Or click, if you want to experience it again.",
+  "outroSmiley": "😊"
+}
