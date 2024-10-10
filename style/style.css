@@ -5,6 +5,8 @@ html {
 body {
   margin: 0;
   font-family: "Work Sans", sans-serif;
+  background-color: black; /* Set background to black */
+  color: white; /* Set text color to white */
 }
 
 .container {
@@ -39,6 +41,7 @@ body {
 
 .one {
   font-size: 4.5rem;
+  color: white; /* Ensure text color is white */
 }
 
 .one > img {
@@ -51,10 +54,12 @@ body {
 .two {
   font-size: 1.2rem;
   font-weight: lighter;
+  color: white; /* Ensure text color is white */
 }
 
 .three {
   font-size: 3rem;
+  color: white; /* Ensure text color is white */
 }
 
 .four .text-box {
@@ -64,11 +69,13 @@ body {
   border-radius: 5px;
   padding: 10px;
   position: relative;
+  background-color: #333; /* Dark background for contrast */
 }
 
 .text-box p {
   margin: 0;
   text-align: left;
+  color: white; /* Ensure text color is white */
 }
 
 .text-box span {
@@ -79,7 +86,7 @@ body {
   position: absolute;
   right: 5px;
   bottom: 5px;
-  color: #fff;
+  color: black; /* Change text color to black for contrast */
   background-color: rgb(21, 161, 237);
   padding: 5px 8px;
   border-radius: 3px;
@@ -90,26 +97,32 @@ body {
   position: absolute;
   left: 0;
   right: 0;
+  color: white; /* Ensure text color is white */
 }
 
 .idea-3 strong {
   padding: 3px 5px;
   border-radius: 3px;
-  display: inline-block;
+  display: inline-block; /* Ensure the background fits the text */
+  background-color: #fff; /* Set a background color for contrast */
+  color: black; /* Change text color to black for contrast */
 }
 
 .five .idea-5 {
   font-size: 4rem;
+  color: white; /* Ensure text color is white */
 }
 
 .idea-5 span,
 .idea-6 span,
 .wish-hbd span {
   display: inline-block;
+  color: white; /* Ensure text color is white */
 }
 
 .idea-6 span {
   font-size: 15rem;
+  color: white; /* Ensure text color is white */
 }
 
 .six {
@@ -214,22 +227,26 @@ body {
   font-size: 3em;
   margin: 0;
   text-transform: uppercase;
+  color: white; /* Ensure text color is white */
 }
 
 .wish h5 {
   font-weight: lighter;
   font-size: 2rem;
   margin: 10px 0 0;
+  color: white; /* Ensure text color is white */
 }
 
 .nine p {
   font-size: 2rem;
   font-weight: lighter;
+  color: white; /* Ensure text color is white */
 }
 
 #replay {
   z-index: 3;
   cursor: pointer;
+  color: white; /* Ensure text color is white */
 }
 
 /* Media Queries */
