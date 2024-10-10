@@ -250,16 +250,21 @@ const animationTimeline = () => {
     )
     .staggerTo(
       ".eight svg",
-      3, {
+      120, { // Set the duration to 120 seconds (2 minutes)
         visibility: "visible",
         opacity: 0,
         scale: 80,
-        repeat: 3,
-        repeatDelay: 1.4
+        repeat: -1, // Infinite loop to keep it running
+        repeatDelay: 0, // No delay between repeats
+        ease: Power1.easeInOut
       },
-      0.6
+      0.6 // Stagger delay between each SVG
     )
-    .to(".six", 1, {
+    .to(".six", 120, { // Keep the .six class visible for 120 seconds (2 minutes)
+      opacity: 1, // Ensure it's fully visible
+      ease: Power1.easeInOut
+    })
+    .to(".six", 1, { // Fade out after 2 minutes
       opacity: 0,
       y: 30,
       zIndex: "-1"
