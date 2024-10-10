@@ -130,17 +130,10 @@ body {
 }
 
 .six img {
-  display: inline-block;
-  max-width: 100%;
+  display: block; /* Ensure the image is a block element */
+  max-width: 40%; /* Set image width to 40% of the screen */
   height: auto;
-}
-
-.six .hat {
-  position: absolute;
-  width: 80px;
-  top: -35px;
-  left: 41.5%;
-  /* transform: scale(0.1); */
+  margin: 0 auto 10px; /* Center the image horizontally and add a 10px margin below */
 }
 
 .baloons img {
@@ -224,15 +217,18 @@ body {
 }
 
 .wish-hbd {
-  font-size: 3em;
-  margin: 0;
-  text-transform: uppercase;
-  color: white; /* Ensure text color is white */
+  margin: 10px 0; /* Add a 10px margin on the top and bottom */
+  padding: 5px; /* Add padding inside the element */
+  text-align: center; /* Center the text */
+  font-size: 4rem; /* Adjust font size as needed */
+  font-weight: bold;
+
+  color: #333; /* Adjust text color as needed */
 }
 
 .wish h5 {
   font-weight: lighter;
-  font-size: 2rem;
+  font-size: 1rem;
   margin: 10px 0 0;
   color: white; /* Ensure text color is white */
 }
@@ -313,4 +309,13 @@ body {
     font-size: 1.5rem;
     font-weight: lighter;
   }
+}
+
+.lydia-dp {
+  display: block; /* Ensure the image is a block element */
+  max-width: 100%; /* Ensure the image scales properly */
+  height: auto;
+  margin: 10px; /* Add a 10px margin on all sides */
+  border-radius: 15px; /* Round the corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add a shadow */
 }
