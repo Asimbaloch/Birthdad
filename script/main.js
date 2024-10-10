@@ -289,4 +289,24 @@ const animationTimeline = () => {
 };
 
 // Run fetch and animation in sequence
+document.addEventListener("DOMContentLoaded", () => {
+  const audio1 = document.getElementById("audio1");
+  const audio2 = document.getElementById("audio2");
+  const startButton = document.getElementById("startAudio");
+
+  function startAudio() {
+    audio1.play().then(() => {
+      audio1.addEventListener("ended", () => {
+        audio2.play();
+      });
+      startButton.style.display = 'none';
+    }).catch(error => {
+      console.log("Autoplay failed:", error);
+    });
+  }
+
+  startButton.addEventListener("click", startAudio);
+  startAudio(); // Attempt autoplay
+});
+
 fetchData();
